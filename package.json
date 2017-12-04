@@ -1,0 +1,13 @@
+{
+  "name": "extract-paths-webpack-plugin",
+  "version": "1.0.0",
+  "main": "src/extract_paths_plugin.js",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.9.1"
+  },
+  "scripts": {
+    "build": "webpack --config ./example/webpack.config.js",
+    "watch": "npm run build -- --watch"
+  }
+}
